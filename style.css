@@ -22,14 +22,18 @@ header {
 }
 
 .flex-container {
-    display: inline-flex;    
+    display: inline-flex;       
     width: auto;
     height: 64px;        
 }
 
-.logo img{
-   
+.logo {
+    
+}
+
+.logo img{   
     width: 7%;
     height: auto;
+    
 }
 
