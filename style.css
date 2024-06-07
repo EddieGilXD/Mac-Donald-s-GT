@@ -7,7 +7,7 @@ main {
     width: auto;
     margin-left: 38px;
     margin-right: 38px;
-    margin-top: 10px;
+    padding-top: 38px;
 }
 
 header {
@@ -125,3 +125,26 @@ ul .botonOrdenar {
     padding: 10px 20px;
 }
 
+/*Aca inicia el main page*/
+.content {
+    display: flex;
+    flex-direction: column;    
+    padding: 50px;
+    gap: 40px;
+}
+.containerGrid {
+    display: flex;
+    flex-direction: row;    
+    gap: 50px;
+
+}
+.contenedor1 {
+    width: 775px;
+    height: 1050px;
+    background-color: #F3F4F6;
+}
+.contenedor2 {
+    width: 775px;
+    height: 1050px;
+    background-color: #F3F4F6;
+}
