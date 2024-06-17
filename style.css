@@ -1,5 +1,6 @@
 body {
     font-family: 'McDonalds Helvetica', sans-serif;
+    
 }
 
 main {
@@ -217,4 +218,75 @@ ul .botonOrdenar {
     border: none;    
     border-radius: 20px;
     padding: 10px 20px;
+}
+
+/* Pasando a las imagenes de abajo del grid */
+
+.cajitaFeliz {
+    width: auto;
+}
+
+.cajitaFeliz img{
+    width: 100%;
+}
+
+.contact-stript {
+    width: auto;
+}
+
+.contact-stript img{
+    width: 100%;
+}
+
+/* Aca inicia Footer */
+/* Parte de logo de macdonalds */
+
+.footer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 1px solid grey; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.contenedor-de-contenido-footer .social {
+    display:flex;
+    flex-direction: row;
+}
+
+.footer .logoM-orgullosamente {
+    display: flex;
+    flex-direction: row;
+}
+.footer .logoM-orgullosamente p{    
+    font-size: 14px;
+    margin-left: 16px;  
+    font-weight: lighter;  
+}
+
+.social-bar {
+    display: flex;
+    flex-direction: row;    
+    padding-top: 1%;
+    margin-left: 49%;
+}
+
+.social-bar .img {
+    width: 30px;
+    height: 30px;
+}
+
+/* menu de links */
+
+.menu-contacto {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;    
+}
+
+.menu-contacto p{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 0.5px solid black; 
 }
