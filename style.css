@@ -127,24 +127,94 @@ ul .botonOrdenar {
 
 /*Aca inicia el main page*/
 .content {
+    width: 1180px;
     display: flex;
     flex-direction: column;    
     padding: 50px;
+    margin-left: 100px;
     gap: 40px;
 }
+.gallery {
+    width: auto;
+}
+.gallery img {
+    width: 100%;
+}
+
+.banner-menu {
+    width: auto;
+}
+
+.banner-menu img {
+    width: 100%;
+}
+
 .containerGrid {
+    width: auto;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;   
+    
     gap: 50px;
 
 }
 .contenedor1 {
-    width: 775px;
-    height: 1050px;
+    width: 470px;
+    height: 650px;
+    padding: 48px;    
     background-color: #F3F4F6;
 }
+
+.contenedor1 .img1 {
+    width: auto;
+    height: auto;   
+    
+}
+.contenedor1 .img1 img{
+    width: auto;
+    height: 100%;
+    margin-left: 17%;
+    margin-right: 17%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .contenedor2 {
-    width: 775px;
-    height: 1050px;
+    width: 470px;
+    height: 650px;
+    padding: 48px;
+    
     background-color: #F3F4F6;
+}
+
+.contenedor2 .img2 {
+    width: auto;
+    height: auto;
+}
+
+.contenedor2 .img2 img{
+    width: auto;
+    height: 100%;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.contenedor-texto-imagenes {
+    text-align: center;
+
+}
+.contenedor-texto-imagenes h3{
+    font-size: 30px;
+}
+
+.contenedor1 .contenedor-texto-imagenes p{    
+    font-size: 16px;
+    font-weight: 100;
+}
+.containerGrid .botonOrdenar {
+    font-weight: 1000;
+    background-color: #FFBC0D;
+    border: none;    
+    border-radius: 20px;
+    padding: 10px 20px;
 }
